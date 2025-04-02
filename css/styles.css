@@ -513,3 +513,17 @@ span {
 .footer-contact:focus {
     color:var(--accent-color);
 }
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.social-tittle {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
